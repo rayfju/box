@@ -29,9 +29,9 @@ import java.util.Scanner;
 public class BoxTester {
     public static void main(String[] args) {
         List<Box> boxes = new ArrayList<>();
-        boxes.add(new Box1());
-        boxes.add(new Box2());
-        boxes.add(new Box3());
+        boxes.add(new Box1(10,10,10));
+        boxes.add(new Box2(20,20,20));
+        boxes.add(new Box3(30,30,30));
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter object's length: ");
         int length = Integer.parseInt(scanner.next());
